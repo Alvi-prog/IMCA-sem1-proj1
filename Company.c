@@ -22,5 +22,5 @@ fp=fopen("database","a");
       printf("INVALID PASSWORD! try again. (%d/4) more trys \n",times);
       ++times;
     }
-}while (times < 4 || pass != 123); // loops till password is correct up to 4 times
+}while (times<4 || pass != 123); // loops till password is correct up ,cheaks up to 4 times
 }
