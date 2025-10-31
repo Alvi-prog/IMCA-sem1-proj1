@@ -61,9 +61,9 @@ void SELL()
  printf("GIVE BIKE MODEL NAME: ");
  scanf(" %[^\n]",bikearray[sellno].name);
  printf("GIVE ENGINE SIZE(cc): ");
- scanf(" %[^\n]",bikearray[sellno].egsize);
+ scanf(" %d",bikearray[sellno].egsize);
  printf("GIVE PRICE WILLING TO BE SOLD FOR: ");
- scanf(" %[^\n]",bikearray[sellno].price);
+ scanf(" %f",bikearray[sellno].price);
 }
 
 
